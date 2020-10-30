@@ -1,0 +1,49 @@
+footer{
+  width:100%;
+  height: 170px;
+  border-top: #ffe600 solid 1px;
+  position: relative;
+}
+footer div{
+  margin: 20px auto;
+  text-align: center;
+}
+footer .flogo{
+  margin-top: 15px;
+  width: 106px;
+  height: 34px;
+  overflow: hidden;
+  position: relative;
+}
+footer .flogo img{
+  position: absolute;
+  width: 288.0434px;
+  left:-144px;
+}
+footer .location{
+  font-size: 9.5px;
+  line-height: 16.03px;
+  font-weight: 700;
+  color: #666;
+}
+footer .copyright{
+  color: #999;
+  font-size: 9px;
+  font-weight: 700;
+}
+footer .top_btn{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  bottom:0px;
+  right: 180px ;
+  cursor: pointer;
+}
+footer .top_btn img{
+  width: 250px;
+  position: absolute;
+  right: -225px;
+  bottom: -137px;
+}
+/* footer */

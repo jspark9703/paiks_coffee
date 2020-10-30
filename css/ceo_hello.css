@@ -1,0 +1,68 @@
+/* sub_nav width */
+.nav_boxs{
+  width: 50%;
+}
+
+
+.ceo_hello_content{
+  display: flex;
+  justify-content: space-between;
+}
+.ceo_hello_content .ceo_img img, .ceo_hello_content .intro{
+  width: 450px;
+}
+.ceo_hello_content .ceo{
+  margin-left: 20px;
+}
+.ceo_hello_content .intro{
+  margin-right: 20px;
+}
+.ceo .ceo_career div{
+  color: #001d6f;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 40px 0 30px 0;
+}
+.ceo .ceo_career span{
+  color: #333;
+  font-size: 18px;
+  font-weight: 700;
+}
+.intro .intro_txt .tit{
+  font-size: 24px;
+  padding: 20px 0;
+  line-height: 40px ;
+  color: #333;
+  font-weight: 900;
+}
+.intro .intro_txt span{
+  font-size: 12px;
+  line-height: 18px;
+  color: #333;
+}
+.intro .intro_txt span strong{
+  font-weight: 900;
+}
+.intro .ceo_sign{
+  margin-top:75px ;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+.intro .ceo_sign .sign_tit{
+  width: 145px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.intro .ceo_sign .sign_tit strong{
+  padding-left: 90px;
+  font-size: 16px;
+  font-weight: 900;
+}
+.intro .ceo_sign .sign{
+  width: 145px;
+  margin-left: 10px;
+}
+.intro .ceo_sign .sign img{
+  width: 100%;
+}

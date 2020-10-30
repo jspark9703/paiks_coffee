@@ -1,0 +1,48 @@
+@charset 'utf-8';
+
+
+/* sub_nav_width */
+.nav_boxs{
+  width: 700px;
+}
+
+
+.new_menu{
+  width: 900px;
+}
+.new_menu .menu_tit{
+  font-size: 24px;
+  font-weight: bolder;
+  color: #333;
+  margin:40px 0;
+}
+.new_menu .video_box{
+  width: 100%;
+  height: 340px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom:40px ;
+}
+.new_menu .video_box img{
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -100px;
+}
+.new_menu .sns{
+  width: 100px;
+  margin: 100px auto 80px ;
+  display: flex;
+  justify-content: space-between;
+
+}
+.new_menu .sns .sns_face, .new_menu .sns .sns_insta{
+  width: 26px;
+  height: 26px;
+  overflow: hidden;
+  position: relative;
+  transform: scale(2);
+}
+.new_menu .sns .sns_face img{
+  position: absolute;
+}

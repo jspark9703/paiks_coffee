@@ -1,0 +1,23 @@
+:root {
+  /* color */
+  --main-color:#001d6f;
+  --sub-color:#ffe600;
+  --freCof-color:#724402;
+  --varBev-color:#9fd913;
+  --swePai-color:#ff6600;
+  --tasIce-color:#c08a07;
+  /* margin */
+  --margin:20px;
+  --hTextMg-margin:25px;
+  --sTextMg-margin:30px;
+  /* font */
+  --secfont:36px;
+  --hedfonnt:14px;
+}
+section{
+  width: 1024px;
+  margin: 0px auto;
+}
+.center{
+  margin: 0 auto;
+}

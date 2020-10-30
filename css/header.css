@@ -1,0 +1,76 @@
+header{
+  max-width: 1024px;
+  width: 100%;
+  height:80px ;
+  margin:0 auto;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 99999999;
+}
+
+.logo{
+  flex: 1;
+  margin-left: 20px;
+}
+.logo img{
+  height: 55px;
+}
+.nav{
+  flex: 4;
+  height: 80px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin-right: 20px;
+}
+.top_nav{
+  width: 310px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-content: center;
+  font-size: var(--hedfont);
+  font-weight: 600;
+  line-height: 25px;
+}
+.top_nav div{
+  color: #999;
+}
+.top_nav .sns_face, .top_nav .sns_insta,.sec_sns .sns_face,.sec_sns .sns_insta{
+  width: 26px;
+  height: 26px;
+  overflow: hidden;
+  position: relative;
+  padding-right:10px ;
+}
+.top_nav .sns,.sec_sns .sns{
+  display: flex;
+}
+.sns_insta img{
+  position: absolute;
+  width: 160px;
+  top: -126.6px;
+  left: -79px;
+}
+.sns_face img{
+  position: absolute;
+  width: 160px;
+  top: -94.6px;;
+  left: -78px;
+}
+.main_nav{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items:center ;
+}
+.main_nav div{
+  font-weight: 600;
+  color: #333;
+}

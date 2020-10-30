@@ -1,0 +1,39 @@
+.sub_nav .nav_img{
+  width: 395px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+}
+.sub_nav .nav_img img{
+  width: 491.6985px;
+  position: absolute;
+  top: -59px;
+  left: -1px;
+}
+.nav_boxs{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav_boxs .nav_box {
+  width: 130px;
+  height: 35px;
+  box-sizing: border-box;
+  border: solid 2px #001d6f;
+  text-align: center;
+  font-size:12px ;
+  padding: 8px;
+  margin-top: 40px;
+  font-weight: 900;
+  line-height: 14px;
+}
+.nav_boxs .nav_box a{
+  color: #001d6f;
+}
+.sub_nav .nav_line{
+  width: 2px;
+  height: 25px;
+  margin: 20px auto;
+  background: #001d6f;
+}
+
